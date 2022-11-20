@@ -9,9 +9,8 @@ function Card(props) {
     .then((data) => setPost(data));
   }
   useEffect(() => {
-    console.log(props)
     fetchData();
-  },[])
+  })
   return (
     <div>
       <div className="card">

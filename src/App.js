@@ -1,15 +1,11 @@
 import './App.css';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import Card from './components/Card';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 function App() {
   const [posts,setPosts]  = useState(Array.from({length:5}))
   const [hasMore,setHasMore] = useState(true)
-
-  useEffect(()=>{
-    console.log(posts,"<===")
-  },[posts])
 
   const fetchMore = () => {
     if(posts.length<=95){
