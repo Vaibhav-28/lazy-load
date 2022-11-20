@@ -1,0 +1,22 @@
+.card{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius:5px;
+    margin:auto
+}
+.cardPic{
+    padding: 1rem;
+}
+.title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem;
+    height: 70px;
+}
+.desc{
+    padding: 1rem;
+    font-size: 16px;
+    text-align: justify;
+}
